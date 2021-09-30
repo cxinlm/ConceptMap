@@ -6,7 +6,7 @@
 
 body {
     font-family: "Segoe UI", sans-serif;
-    background-image: radial-gradient(circle, #62cde3, #109ac5, #0067a2, #003779, #000248), url('images/bg.png');
+    background-image: radial-gradient(circle, #62cde3, #109ac5, #0067a2, #003779, #000248);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
