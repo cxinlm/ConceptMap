@@ -6,7 +6,7 @@
 
 body {
     font-family: "Segoe UI", sans-serif;
-    background-image: radial-gradient(circle, #62cde3, #109ac5, #0067a2, #003779, #000248);
+    background-image: radial-gradient(circle, #53b8cc, #0c8cb3, #00598d, #002c61, #000231);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -146,25 +146,25 @@ body {
 
 .container #circle2 {
     position: absolute;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     top: 28%;
-    left: 10%;
+    left: 2%;
 }
 
 .container #circle3 {
     position: absolute;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     top: 42%;
-    left: 50%;
+    left: 46%;
 }
 
 .container #circle4 {
     position: absolute;
-    width: 40%;
-    height: 40%;
-    top: 62%;
+    width: 50%;
+    height: 50%;
+    top: 63%;
     left: 23%;
 }
 
@@ -178,34 +178,34 @@ body {
 
 .container #circle6 {
     position: absolute;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     top: 91%;
-    left: 66%;
+    left: 55%;
 }
 
 .container #circle7 {
     position: absolute;
-    width: 40%;
-    height: 40%;
-    top: 75%;
-    left: 93%;
+    width: 50%;
+    height: 50%;
+    top: 72%;
+    left: 91%;
 }
 
 .container #circle8 {
     position: absolute;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     top: 127%;
-    left: 57%;
+    left: 55%;
 }
 
 .container #circle9 {
     position: absolute;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     top: 135%;
-    left: 99%;
+    left: 97%;
 }
 
 .container #circle10 {
@@ -218,70 +218,83 @@ body {
 
 .container #circle11 {
     position: absolute;
-    width: 40%;
-    height: 40%;
-    top: -3%;
+    width: 50%;
+    height: 50%;
+    top: -16%;
     left: 132%;
 }
 
 .container #circle12 {
     position: absolute;
-    width: 40%;
-    height: 40%;
-    top: 23%;
-    left: 163%;
+    width: 50%;
+    height: 50%;
+    top: 9%;
+    left: 156%;
 }
 
 .container #circle13 {
     position: absolute;
-    width: 40%;
-    height: 40%;
-    top: 55%;
-    left: 160%;
+    width: 50%;
+    height: 50%;
+    top: 59%;
+    left: 155%;
 }
 
 .container #circle14 {
     position: absolute;
-    width: 40%;
-    height: 40%;
+    width: 50%;
+    height: 50%;
     top: 92%;
-    left: 150%;
+    left: 140%;
 }
 
 .container #circle15 {
     position: absolute;
-    width: 40%;
-    height: 40%;
-    top: 76%;
-    left: 120%;
+    width: 50%;
+    height: 50%;
+    top: 65%;
+    left: 110%;
 }
 
 .container #circle16 {
     position: absolute;
-    width: 40%;
-    height: 40%;
-    top: 48%;
-    left: 121%;
+    width: 50%;
+    height: 50%;
+    top: 28%;
+    left: 118%;
 }
 
 ::-webkit-scrollbar {
     display: none;
 }
 
-@media (max-width: 300px) and (max-height: 500px) {
+@media (max-width: 500px) and (max-height: 500px) {
 
  body {
-     width:max-content;
-     height:max-content;
+     width:50%;
+     height:50%;
  }
 
  .title {
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
+    font-size: 2vh;;
  }
  .subtitle {
     visibility: hidden;
  }
+
+ .container {
+   position: absolute;
+   width: 50%;
+   height: 50%;
+ }
+
+ .container .object img {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+}
 
 }
 
